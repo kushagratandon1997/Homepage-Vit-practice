@@ -1,0 +1,168 @@
+#topsec
+{
+  overflow: hidden;
+  display: flex;
+  background-color: rgba(0,0,0,0.56);
+  height: 100px;
+  margin: -10px -8px;
+}
+body
+{
+	background-image: url(2.jpg);
+	background-size: cover;
+	color:rgb(0, 0, 0);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-origin: center;
+}
+.search-form
+{
+	position: absolute;
+	top:30px;
+	left:1250px;
+	float: right;
+	border: none;
+	font-size:16px;
+	font-family: sans-serif;
+}
+button
+{
+	float: right;
+	background:orange;
+	color: white;
+	border-radius:0 5px 5px 0;
+	cursor:pointer;
+}
+.navbar
+{
+	text-align: center;
+	width: 100%;
+	background-color: rgba(0,0,0,0.56);
+	height:90px;
+	margin-top: 10.5px 
+}
+.navbar ul
+{
+	margin: 17px;
+	margin-left: 90px;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	font-size: 17px;
+	z-index: 99;
+}
+ .navbar ul li a
+ {
+ 	display: block;
+ 	padding:25px;
+ 	color: white;
+ 	text-decoration: none;
+ 	width: 150px;
+ }
+ .navbar ul:after
+ {
+ 	content: "";
+ 	clear: both;
+ 	display: block;
+ }
+ .navbar ul li
+ {
+ 	float:left;
+ 	list-style: none;
+
+ }
+ .navbar ul ul
+ {
+ 	display: none; 
+ }
+ .navbar ul li:hover > ul
+ {
+ 	display: block;
+ }
+ .navbar ul li:hover
+ {
+ 	background: black;
+ 	transition: 0.9s;
+ }
+ .navbar ul li:hover a
+ {
+ 	color:white;  
+ }
+ .navbar ul ul
+ {
+ 	background: black;
+ 	opacity: 0.5;
+ 	padding: 0;
+ 	margin: 0px;
+ 	position: absolute;
+ 	top:100%;
+ }
+ .navbar ul ul li
+ {
+ 	float: none;
+ 	position: relative;
+ }
+ .navbar ul ul li a
+ {
+ 	padding: 25px;
+ 	color: white;
+ 	width: 300px;
+ 	text-align: left;
+ }
+ .navbar ul ul li a:hover 
+ {
+ 	background: lightblue;
+ 	color: black;
+ 	transition: 0.9s;
+ }
+ .news
+ {
+ 	color: white;
+ 	position: absolute;
+ 	margin-left: 20px;
+ }
+ .card-body
+{
+	padding:0.5rem; 
+	height: 505px;
+}
+.card
+{
+	font-family: 'ABeeZee', sans-serif;
+	border-radius: 0.5rem;
+	border: 1px solid rgba(0,0,0,0.125);
+	height: 425px;
+
+}
+.cardSet1
+{
+	background-color: #1d212482;
+}
+.cardSet2
+{
+	background-color: #1d212482;
+}
+.cardSet3
+{
+	background-color: #1d212482;
+}
+.cardSet4
+{
+	background-color: #1d212482;
+}
+h3.card-title
+{
+	font-size: 1.5rem;
+	color: white;
+}
+h5.card-subtitle
+{
+	font-size: 1.5rem;
+}
+p.card-text
+{
+	padding: 0.8rem;
+	line-height: 1.2rem;
+	color: white;
+}
